@@ -1,0 +1,3 @@
+## kompleksitas soal balanced backet
+Untuk balanced bracket saya menggunakan pencocokan antara bracket buka dan tutup.
+Langkah awal saya menjadikan bracket buka sebagai value agar memudahkan proses identifikasi bracket dengan harapan dimana ada bracket buka harus disertai dengan bracket tutup agar hasil menjadi valid atau YES, dan jika sudah menemukan bracket tutup maka kita hanya tinggal menyisihkan pasangan bracket atau bukaan bracket dari stack sehingga jika semua bracket buka memiliki bracket tutup sudah pasti stack yang dibuat juga akan kosong dan return menjadi YES
